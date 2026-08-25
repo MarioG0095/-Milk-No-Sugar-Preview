@@ -1,0 +1,10 @@
+{
+  "cli": { "version": ">= 18.0.1" },
+  "build": {
+    "preview": { "distribution": "internal" },
+    "production": {
+      "autoIncrement": true,
+      "ios": { "image": "latest" }
+    }
+  }
+}
