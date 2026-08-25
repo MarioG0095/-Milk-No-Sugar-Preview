@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Milk, No Sugar Preview",
+    "slug": "milk-no-sugar-preview",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "scheme": "milk-nosugar-preview",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#15131A",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mariog0095.milknosugar",
+      "buildNumber": "1",
+      "config": { "usesNonExemptEncryption": false }
+    },
+    "plugins": ["expo-router", "expo-sqlite"],
+    "experiments": { "typedRoutes": true }
+  }
+}
